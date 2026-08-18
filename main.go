@@ -19,3 +19,4 @@ func blueHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "image/png")
 	png.Encode(w, img)
 }
+// Rollback v1.0 final
